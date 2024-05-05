@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+ 
 typedef struct node
 {
     int number;
@@ -33,6 +33,7 @@ int main(int argc, char *argv[])
                 if(ptr->next == NULL)
                 {
                     ptr->next = n;
+                    n->next = NULL;
                     break;
                 }
                 else if(n->number < ptr->next->number)
