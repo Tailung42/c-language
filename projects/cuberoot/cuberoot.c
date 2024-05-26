@@ -1,10 +1,10 @@
 #include "cuberoot.h"
 
 #define epsilon pow(10, -6)
-flksflkashflkas
+
 double qroot(double num)
 {
-    double a, b = 2, c;
+    double a, b , c;
     for ( a = 0; f(a, num) * f(a + 1, num) > 0; a++)
     {
 
