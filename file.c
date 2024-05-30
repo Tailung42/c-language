@@ -3,7 +3,7 @@
 int main(void)
 {
   printf("hello world");
-  int a = 2;
-  int b = 1;
 
+  int a = 1;
+  int b = a;
 }
