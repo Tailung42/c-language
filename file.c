@@ -6,5 +6,5 @@ int main(void)
 
   int a = 1;
   int b = a;
-  int c = 20;
+  int c = 50;
 }
