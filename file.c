@@ -5,6 +5,5 @@ int main(void)
   printf("hello world");
 
   int a = 1;
-  int b = a;
-  int c = 50;
+  printf("this change was made in branch style");
 }
